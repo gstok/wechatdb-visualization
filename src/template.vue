@@ -1,45 +1,22 @@
 
 <!--局部样式-->
 <style scoped>
-    .app {
-        width: 100%;
-        height: 100%;
-    }
 
-    .box {
-        box-sizing: content-box;
-        width: 1000px;
-        height: 500px;
-        border: solid 1px black;
-    }
 </style>
 
 <!--全局局部覆盖样式-->
 <style>
-    html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-    }
 
-    div {
-        box-sizing: border-box;
-    }
 </style>
 
 <template>
-    <div class="app">
-        <div class="box">
-            <d3ChainGraph></d3ChainGraph>
-        </div>
-        <!-- <dayChatLine></dayChatLine> -->
+    <div class="">
     </div>
 </template>
 
 <script>
     export default {
-        name: "app",
+        name: "",
         props: {
 
         },
@@ -60,7 +37,6 @@
         },
         computed: {
             //#region 常量计算属性
-
             //#endregion
 
             //#region 数据转换计算属性
